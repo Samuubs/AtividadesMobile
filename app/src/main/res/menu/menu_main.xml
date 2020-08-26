@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Activity2">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/opcao1"
+            android:checkable="false"
+            android:enabled="true"
+            android:title="Opção 1"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/opcao2"
+            android:checkable="false"
+            android:icon="@android:drawable/menuitem_background"
+            android:title="Opção 2"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/opcao3"
+            android:checkable="false"
+            android:title="Opção 3"
+            app:showAsAction="never" />
+
+    </group>
+
+</menu>

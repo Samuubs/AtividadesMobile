@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Tab1">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grid Layout"
+                    android:textSize="50dp"
+                    app:layout_gravity="center" />
+            </androidx.gridlayout.widget.GridLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="190dp"
+                    android:layout_height="201dp"
+                    android:background="#FF0000">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Grid 1"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30dp"
+                        app:layout_gravity="center" />
+                </androidx.gridlayout.widget.GridLayout>
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="219dp"
+                    android:layout_height="201dp"
+                    android:background="#0024FF">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Grid 2"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30dp"
+                        app:layout_gravity="center" />
+                </androidx.gridlayout.widget.GridLayout>
+            </LinearLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:background="#00FF2A">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grid 3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    app:layout_gravity="center" />
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="251dp"
+                android:background="#000000">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Grid 4"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    app:layout_gravity="center" />
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
